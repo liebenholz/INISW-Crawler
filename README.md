@@ -13,7 +13,7 @@ Public Version of Crawler from INISW Academy
 어떤 데이터가 있는지 추출 및 분석
 - Demonstration: scrapingcourse
 - Practice: Brunch
-- Practice: NAver Webtoon
+- Practice: Naver Webtoon
 
 ## Crawler
 크롤링+스크래핑
