@@ -7,7 +7,7 @@ Public Version of Crawler from INISW Academy
 - Depth Restriction
 - Domain Restriction
 - Depth & Domain Restriction
-- HTML Tag(Scope) Restriction
+- Scope(HTML Tag) Restriction
 
 ## Scraping
 어떤 데이터가 있는지 추출 및 분석
