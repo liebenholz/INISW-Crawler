@@ -21,3 +21,4 @@ Image Ref: [prowebscraping](https://prowebscraping.com/web-scraping-vs-web-crawl
 ## Crawler
 크롤링+스크래핑
 - Practice: Naver Mail
+- Application: Naver Mail Spam Filter with Naive Bayse
