@@ -12,6 +12,7 @@ URLs = list()
 Seens = list()
 dom = BeautifulSoup()
 
+# Naver News Scrapper
 async def scrap():
     while URLs:
         seed = URLs.pop(-1)

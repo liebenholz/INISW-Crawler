@@ -11,7 +11,6 @@ from results import crawl_results
 
 URLs = list()   # 앞으로 방문해야 할 URL 목록
 Seens = list()  # 기존에 방문한 URL 목록
-
     
 async def crawl():
     # 앞으로 방문할 목록이 빌 때까지(더 이상 방문할 URL이 없을 때까지)
@@ -76,6 +75,5 @@ async def main():
     await crawl()
     crawl_results(URLs, Seens)
 
-if __name__ == "__main__":
-    asyncio.run(main())
+asyncio.run(main())
      
