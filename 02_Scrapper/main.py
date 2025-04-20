@@ -29,7 +29,7 @@ async def scrap():
         components = urlparse(seed['url'])
 
         if canFetch('://'.join(components[:2]), components.path) == False:
-            print('가져가면 안되요')
+            print('Access Denied by Robot Parser')
 
         resp = get(seed['url'], headers=headers)
 
@@ -37,7 +37,7 @@ async def scrap():
             if resp.status_code == 500:
                 URLs.append(seed['url'])
             else:
-                print('Response 없음')
+                print('No Response')
                 continue
 
         print(seed['url'])
