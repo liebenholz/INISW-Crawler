@@ -36,3 +36,7 @@ def canFetch(host, path):
     else:
         # path.split('/') # 나중에 완성
         return True
+    
+def crawl_results(URLs, Seens):
+    print(f'{len(URLs)}개의 URL을 탐색해, {len(Seens)}개의 페이지를 발견했습니다.')
+     # Seens

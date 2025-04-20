@@ -6,8 +6,8 @@ import asyncio
 import re
 from elements import headers, limit, allow
 from urlEncoder import URLEncoding
-from fetch import canFetch
-from results import crawl_results
+from fetch import canFetch, crawl_results
+
 
 URLs = list()
 Seens = list()

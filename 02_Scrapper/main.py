@@ -1,5 +1,5 @@
-from requests import request, get
-from requests.compat import urljoin, urlparse, urlunparse
+from requests import get
+from requests.compat import urljoin, urlparse
 from bs4 import BeautifulSoup
 from time import sleep
 import asyncio
